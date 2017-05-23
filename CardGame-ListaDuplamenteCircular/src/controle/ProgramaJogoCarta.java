@@ -91,6 +91,8 @@ public class ProgramaJogoCarta {
 				}else{
 					inverter = true;
 				}
+				passaVez(inverter);
+
 				System.out.println("Inverter está "+  ((inverter)? "ativo":"desativado"));
 				break;
 				
