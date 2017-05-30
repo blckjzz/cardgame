@@ -214,14 +214,9 @@ public class ListaDuplamenteCircular {
 
 	public void imprimeLista() {
 		Node ptr = start;
-		
 		for(ptr = start; ptr.getLinkNext() != start  ;ptr = ptr.getLinkNext()){
 			System.out.print(ptr.getData() + " - ");
 		}
-//		do{
-//			System.out.print(ptr.getData() + " - ");
-//			;
-//		}while (ptr.getLinkNext() != start);
 		System.out.println();
 	}
 
